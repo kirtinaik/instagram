@@ -1,0 +1,27 @@
+{
+ "source": "./content",
+ "output": "./",
+ "pagination": 5,
+ "templateDir": "./templates",
+ "partialsDir": "./partials",
+ "templates": {
+   "feed": ["/blog/index.html", "/blog/1.html"],
+   "post": "/blog/*",
+   "photos": "/journal/*",
+   "home": "index.md",
+   "main": ["/", "/journal/index.md"],
+   "instagram": "instagram.md",
+   "archives": "archive.html"
+ },
+ "feed": {
+  "postsDir": "./content/blog",
+  "urlPrefix": "blog",
+  "site": {
+   "url": "http://jlord.github.io",
+   "title": "Jessica Lord",
+   "description": "A site on the Internet",
+   "imageUrl": "http://github.com/jlord.png",
+   "author": "jlord"
+  }
+ }
+}
